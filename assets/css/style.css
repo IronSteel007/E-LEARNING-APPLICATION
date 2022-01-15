@@ -1,4 +1,4 @@
-.bg-primary {
+.body-colo {
     background: linear-gradient( 90deg, #00C1FE 19.39%, #FAFFC1 96.69%);
 }
 
@@ -6,17 +6,13 @@
     margin-top: 10rem!important;
 }
 
-.border-start {
+.e-c {
     border-left: 10px solid #00C1FE !important;
 }
 
 .rounded-3 {
     border-radius: 2rem!important;
     padding: 50px!important;
-}
-
-.container-fluid {
-    width: 80%;
 }
 
 .btn-primary {
@@ -27,4 +23,29 @@
 
 .border-start {
     border-left: 10px solid #00C1FE !important;
+}
+
+.card {
+    border: none ! important;
+}
+
+.avatar {
+    height: 140px;
+    width: 140px;
+}
+
+.back-colo {
+    background-color: #FAFFC1;
+}
+
+.cool-w {
+    width: 95% ! important;
+}
+
+.divcont {
+    width: 80%;
+}
+
+.navul {
+    width: 80%;
 }

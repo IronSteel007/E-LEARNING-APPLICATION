@@ -4,76 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
-    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>E-Classe | HOME</title>
 </head>
 
 <body>
-
-    <div class="sidebar-container">
-        <div class="sidebar-logo">
-            Project Name
-        </div>
-        <ul class="sidebar-navigation">
-            <li class="header">Navigation</li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-home" aria-hidden="true"></i> Homepage
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard
-                </a>
-            </li>
-            <li class="header">Another Menu</li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-users" aria-hidden="true"></i> Friends
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-cog" aria-hidden="true"></i> Settings
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Information
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="content-container">
-
-        <div class="container-fluid">
-
-            <!-- Main component for a primary marketing message or call to action -->
-            <div class="jumbotron">
-                <h1>Navbar example</h1>
-                <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-                <p>To see the difference between static and fixed top navbars, just scroll.</p>
-                <p>
-                    <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-                </p>
+    <div class="container-fluid">
+        <div class="row" style="height: 100vh;">
+            <div class="flex-column back-colo col-lg-2 col-md-4 col-sm-6 col-xs-12 ">
+                <div class="p-3 mt-2">
+                    <h1 class="h3 e-c">E-Classe</h1>
+                </div>
+                <div class="d-flex flex-column align-items-center mt-3">
+                    <img class="rounded-circle avatar " src="../assets/img/avatar.jpeg" alt="avatar image" width="100" height="100">
+                    <p class="mt-4">
+                        Kouzbour Yahya
+                    </p>
+                    <p class="text-primary">
+                        Admin
+                    </p>
+                </div>
+                <nav class="d-flex justify-content-center align-content-center">
+                    <ul class="nav flex-column mt-3 navul">
+                        <li class="nav-item cool-w mt-4">
+                            <a class="nav-link active btn text-center" href="home.html"><i class="fas fa-home text-dark col-2"></i>Home</a>
+                        </li>
+                        <li class="nav-item cool-w mt-2">
+                            <a class="nav-link active btn text-center " href="#"><i class="far fa-bookmark text-dark col-2"></i>Course</a>
+                        </li>
+                        <li class="nav-item cool-w mt-2">
+                            <a class="nav-link active btn text-center" href="student.html"><i class="fas fa-graduation-cap text-dark col-2"></i>Students</a>
+                        </li>
+                        <li class="nav-item cool-w mt-2">
+                            <a class="nav-link active btn text-center" href="payment.html"><i class="fas fa-dollar-sign text-dark col-2"></i>Payment</a>
+                        </li>
+                        <li class="nav-item cool-w mt-2">
+                            <a class="nav-link active btn text-center" href="#"><i class="fas fa-chart-line text-dark col-2"></i>Report</a>
+                        </li>
+                        <li class="nav-item cool-w mt-2">
+                            <a class="nav-link active btn text-center" href="#"><i class="fas fa-cogs text-dark col-2"></i>Settings</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="d-flex justify-content-center mt-5">
+                    <a href="../index.html" class="btn nav-link btn">Logout <i class="fas fa-sign-out-alt text-dark"></i></a>
+                </div>
             </div>
+            <div class="col-lg-10 col-md-8 col-sm-6 col-xs-12">
+                <div class="d-flex justify-content-between mt-3">
+                    <div class="">
+                        <a href="/index.html"><i class="far fa-arrow-alt-circle-left text-muted"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center gap-3">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <div>
+                            <a href="#"><i class="far fa-bell text-muted"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card" style="font-size: 1.5rem; background-color: #F0F9FF
+                        ; color: #74C1ED;">
+                            <div class="card-body">
+                                <i class="fas fa-graduation-cap fa-lg"></i>
+                                <p class="text-muted fa-xs">Students</p>
+                                <p class="fa-xs d-flex justify-content-end text-dark fw-bold">
+                                    243
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card" style="font-size: 1.5rem; background-color: #FEF6FB
+                        ; color: #EE95C5;">
+                            <div class="card-body">
+                                <i class="far fa-bookmark fa-lg"></i>
+                                <p class="text-muted fa-xs">Course</p>
+                                <p class="fa-xs d-flex justify-content-end text-dark fw-bold">
+                                    13
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card" style="font-size: 1.5rem; background-color: #FEFBEC
+                        ; color: #00C1FE;">
+                            <div class="card-body">
+                                <i class="fas fa-dollar-sign fa-lg"></i>
+                                <p class="text-muted fa-xs">Payements</p>
+                                <p class="fa-xs d-flex justify-content-end text-dark fw-bold">
+                                    Dhs 556, 000
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="card  body-colo " style="font-size: 1.5rem;
+                        ; color: #fff;">
+                            <div class="card-body">
+                                <i class="far fa-user fa-lg"></i>
+                                <p class="text-muted fa-xs">Users</p>
+                                <p class="fa-xs d-flex justify-content-end text-dark fw-bold">
+                                    3
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
         </div>
     </div>
-    <div class="card" style="width:18rem;">
-        <img src="https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            b5
-        </div>
-    </div>
+    <!-- <script src="../assets/js/bootstrap.js"></script> -->
+    <!-- <script src="../assets/js/bootstrap.bundle.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </body>
 
 </html>
