@@ -1,28 +1,20 @@
 .body-colo {
-    background: linear-gradient( 90deg, #00C1FE 19.39%, #FAFFC1 96.69%);
-}
-
-.mt-5 {
-    margin-top: 10rem!important;
+    background: linear-gradient( 90deg, #00C1FE 19.39%, #FAFFC1 96.69%) !important;
 }
 
 .e-c {
     border-left: 10px solid #00C1FE !important;
 }
 
-.rounded-3 {
+.bor-red {
     border-radius: 2rem!important;
     padding: 50px!important;
 }
 
-.btn-primary {
+.botn-pri {
     color: #fff;
-    background-color: #00C1FE;
-    border-color: #00C1FE;
-}
-
-.border-start {
-    border-left: 10px solid #00C1FE !important;
+    background-color: #00C1FE !important;
+    border-color: #00C1FE !important;
 }
 
 .card {
@@ -30,12 +22,12 @@
 }
 
 .avatar {
-    height: 140px;
-    width: 140px;
+    height: 140px !important;
+    width: 140px !important;
 }
 
 .back-colo {
-    background-color: #FAFFC1;
+    background-color: #FAFFC1 !important;
 }
 
 .cool-w {
@@ -43,9 +35,9 @@
 }
 
 .divcont {
-    width: 80%;
+    width: 80% !important;
 }
 
 .navul {
-    width: 80%;
+    width: 80% !important;
 }
